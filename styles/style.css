@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* Elements */
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  background-image: url('../images/419522.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+input{
+  width: 90%;
+}
+h2{
+  text-shadow: 2px 2px 2px #000000;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+input {
+  padding-left: 0px !important;
+  width: 90% !important;
+}
+
+/* Classes */
+.round{
+  border-radius: 20px;
+}
+.margin-right{
+  margin-right: 5px;
+}
+
+/* IDs */
+#main{
+  padding: 25px;
+}
+
+#captura {
+  display: none;
+}
+
+@media (max-width: 600px){
+  footer {
+    position: relative;
+  }
+  .tarea {
+    background-color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+    margin-bottom: 16px;
+    padding: 16px !important;
+    border-radius: 25px;
+  }
+  .botones {
+    margin-top: 15px;
+  }
+  .boton {
+    width: 50px;
+    margin: 20px 4px 0px 0px;
+  }
+  .boton-cont {
+    float: right
+  }
+  .titulo {
+    font-size: 20px;
+  }
+  #tareas {
+    padding: 0px !important;
+    box-shadow: 0 0 0 0 !important;
+    background-color: transparent !important;
+  }
+}

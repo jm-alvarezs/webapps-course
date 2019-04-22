@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mi Agenda</title>
+		<meta charset='UTF-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel='stylesheet' href='./styles/style.css'>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<script defer href='https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js' integrity='sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c' crossorigin='anonymous'></script>		
+	</head>
+	<body>
+		<main>
+		<header class='w3-padding-large w3-text-shadow'>
+			<div class='w3-content'>
+				<h2 class='w3-text-shadow w3-text-white'>Mi Agenda</h2>
+			</div>
+		</header>
+		<div id='main'>
+			<div class='w3-row w3-content w3-margin-bottom'>
+				<button id='nueva' onclick='capturarNueva()' class='w3-btn w3-black w3-hover-blue round'>Nueva Tarea</button>
+			</div>
+
+			<!-- Tabla de tareas -->
+			<div id='tareas' class='w3-card w3-white w3-content w3-padding round'>
+				
+				
+			</div>
+		</div>
+	</main>
+		<footer class='w3-black w3-padding-large w3-center'>
+			SAITC 2018, UDEM
+			<hr>
+		</footer>
+		<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+		<script src='./scripts/mustache.min.js'></script>
+		<script src='./scripts/jquery-3.3.1.min.js'></script>		
+	</body>
+</html>
